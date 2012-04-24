@@ -1,9 +1,12 @@
-#import "VTPG_Common.h"
+#import "VTPG_LogExpr.h"
+
 // Copyright (c) 2008-2010, Vincent Gable.
 // http://vincentgable.com
 //
-//based off http://www.dribin.org/dave/blog/archives/2008/09/22/convert_to_nsstring/
+// Modified by MonsieurDart aka Mathieu Godart - L'atelier du mobile to extract only the LOG_EXPR code.
 //
+// Based off http://www.dribin.org/dave/blog/archives/2008/09/22/convert_to_nsstring/
+
 static BOOL TypeCodeIsCharArray(const char *typeCode){
     size_t len = strlen(typeCode);
     if(len <= 2)
