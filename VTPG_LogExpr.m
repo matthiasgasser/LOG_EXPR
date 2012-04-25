@@ -53,6 +53,7 @@ NSString * VTPG_DDToStringFromTypeAndValue(const char * typeCode, void * value) 
 	IF_TYPE_MATCHES_INTERPRET_WITH(CGPoint,NSStringFromCGPoint);
 	IF_TYPE_MATCHES_INTERPRET_WITH(CGSize,NSStringFromCGSize);
 	IF_TYPE_MATCHES_INTERPRET_WITH(CGRect,NSStringFromCGRect);
+	IF_TYPE_MATCHES_INTERPRET_WITH(CGAffineTransform,NSStringFromCGAffineTransform);
 #else
 	IF_TYPE_MATCHES_INTERPRET_WITH(NSPoint,NSStringFromPoint);
 	IF_TYPE_MATCHES_INTERPRET_WITH(NSSize,NSStringFromSize);
