@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E097A1B15D3BA9000EBA70C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E097A1A15D3BA9000EBA70C /* Foundation.framework */; };
+		4E097A2A15D3BA9200EBA70C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E097A2915D3BA9100EBA70C /* SenTestingKit.framework */; };
+		4E097A2C15D3BA9200EBA70C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E097A2B15D3BA9200EBA70C /* UIKit.framework */; };
+		4E097A2D15D3BA9200EBA70C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E097A1A15D3BA9000EBA70C /* Foundation.framework */; };
+		4E097A3015D3BA9200EBA70C /* libLogExpr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E097A1715D3BA9000EBA70C /* libLogExpr.a */; };
+		4E097A3615D3BA9300EBA70C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E097A3415D3BA9300EBA70C /* InfoPlist.strings */; };
+		4E097A3915D3BA9300EBA70C /* LogExprTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E097A3815D3BA9300EBA70C /* LogExprTests.m */; };
+		4E097A4715D3BAF900EBA70C /* VTPG_LogExpr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E097A4615D3BAF900EBA70C /* VTPG_LogExpr.m */; };
+		4E097A4815D3BAF900EBA70C /* VTPG_LogExpr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E097A4615D3BAF900EBA70C /* VTPG_LogExpr.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E097A2E15D3BA9200EBA70C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E097A0E15D3BA8F00EBA70C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E097A1615D3BA9000EBA70C;
+			remoteInfo = LogExpr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E097A1515D3BA9000EBA70C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E097A1715D3BA9000EBA70C /* libLogExpr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLogExpr.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E097A1A15D3BA9000EBA70C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E097A1E15D3BA9000EBA70C /* LogExpr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogExpr-Prefix.pch"; sourceTree = "<group>"; };
+		4E097A2815D3BA9100EBA70C /* LogExprTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogExprTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E097A2915D3BA9100EBA70C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E097A2B15D3BA9200EBA70C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E097A3315D3BA9300EBA70C /* LogExprTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogExprTests-Info.plist"; sourceTree = "<group>"; };
+		4E097A3515D3BA9300EBA70C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E097A3715D3BA9300EBA70C /* LogExprTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogExprTests.h; sourceTree = "<group>"; };
+		4E097A3815D3BA9300EBA70C /* LogExprTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogExprTests.m; sourceTree = "<group>"; };
+		4E097A4515D3BAF900EBA70C /* VTPG_LogExpr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPG_LogExpr.h; sourceTree = SOURCE_ROOT; };
+		4E097A4615D3BAF900EBA70C /* VTPG_LogExpr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPG_LogExpr.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E097A1415D3BA9000EBA70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E097A1B15D3BA9000EBA70C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E097A2415D3BA9100EBA70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E097A2A15D3BA9200EBA70C /* SenTestingKit.framework in Frameworks */,
+				4E097A2C15D3BA9200EBA70C /* UIKit.framework in Frameworks */,
+				4E097A2D15D3BA9200EBA70C /* Foundation.framework in Frameworks */,
+				4E097A3015D3BA9200EBA70C /* libLogExpr.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E097A0C15D3BA8D00EBA70C = {
+			isa = PBXGroup;
+			children = (
+				4E097A1C15D3BA9000EBA70C /* LogExpr */,
+				4E097A3115D3BA9200EBA70C /* LogExprTests */,
+				4E097A1915D3BA9000EBA70C /* Frameworks */,
+				4E097A1815D3BA9000EBA70C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E097A1815D3BA9000EBA70C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E097A1715D3BA9000EBA70C /* libLogExpr.a */,
+				4E097A2815D3BA9100EBA70C /* LogExprTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E097A1915D3BA9000EBA70C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E097A1A15D3BA9000EBA70C /* Foundation.framework */,
+				4E097A2915D3BA9100EBA70C /* SenTestingKit.framework */,
+				4E097A2B15D3BA9200EBA70C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E097A1C15D3BA9000EBA70C /* LogExpr */ = {
+			isa = PBXGroup;
+			children = (
+				4E097A4515D3BAF900EBA70C /* VTPG_LogExpr.h */,
+				4E097A4615D3BAF900EBA70C /* VTPG_LogExpr.m */,
+				4E097A1D15D3BA9000EBA70C /* Supporting Files */,
+			);
+			path = LogExpr;
+			sourceTree = "<group>";
+		};
+		4E097A1D15D3BA9000EBA70C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E097A1E15D3BA9000EBA70C /* LogExpr-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E097A3115D3BA9200EBA70C /* LogExprTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E097A3715D3BA9300EBA70C /* LogExprTests.h */,
+				4E097A3815D3BA9300EBA70C /* LogExprTests.m */,
+				4E097A3215D3BA9300EBA70C /* Supporting Files */,
+			);
+			path = LogExprTests;
+			sourceTree = "<group>";
+		};
+		4E097A3215D3BA9300EBA70C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E097A3315D3BA9300EBA70C /* LogExprTests-Info.plist */,
+				4E097A3415D3BA9300EBA70C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E097A1615D3BA9000EBA70C /* LogExpr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E097A3C15D3BA9300EBA70C /* Build configuration list for PBXNativeTarget "LogExpr" */;
+			buildPhases = (
+				4E097A1315D3BA9000EBA70C /* Sources */,
+				4E097A1415D3BA9000EBA70C /* Frameworks */,
+				4E097A1515D3BA9000EBA70C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogExpr;
+			productName = LogExpr;
+			productReference = 4E097A1715D3BA9000EBA70C /* libLogExpr.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4E097A2715D3BA9100EBA70C /* LogExprTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E097A3F15D3BA9300EBA70C /* Build configuration list for PBXNativeTarget "LogExprTests" */;
+			buildPhases = (
+				4E097A2315D3BA9100EBA70C /* Sources */,
+				4E097A2415D3BA9100EBA70C /* Frameworks */,
+				4E097A2515D3BA9100EBA70C /* Resources */,
+				4E097A2615D3BA9100EBA70C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E097A2F15D3BA9200EBA70C /* PBXTargetDependency */,
+			);
+			name = LogExprTests;
+			productName = LogExprTests;
+			productReference = 4E097A2815D3BA9100EBA70C /* LogExprTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E097A0E15D3BA8F00EBA70C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "L'atelier du mobile";
+			};
+			buildConfigurationList = 4E097A1115D3BA8F00EBA70C /* Build configuration list for PBXProject "LogExpr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E097A0C15D3BA8D00EBA70C;
+			productRefGroup = 4E097A1815D3BA9000EBA70C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E097A1615D3BA9000EBA70C /* LogExpr */,
+				4E097A2715D3BA9100EBA70C /* LogExprTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E097A2515D3BA9100EBA70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E097A3615D3BA9300EBA70C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E097A2615D3BA9100EBA70C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E097A1315D3BA9000EBA70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E097A4715D3BAF900EBA70C /* VTPG_LogExpr.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E097A2315D3BA9100EBA70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E097A3915D3BA9300EBA70C /* LogExprTests.m in Sources */,
+				4E097A4815D3BAF900EBA70C /* VTPG_LogExpr.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E097A2F15D3BA9200EBA70C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E097A1615D3BA9000EBA70C /* LogExpr */;
+			targetProxy = 4E097A2E15D3BA9200EBA70C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E097A3415D3BA9300EBA70C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E097A3515D3BA9300EBA70C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E097A3A15D3BA9300EBA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E097A3B15D3BA9300EBA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E097A3D15D3BA9300EBA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LogExpr.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogExpr-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4E097A3E15D3BA9300EBA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LogExpr.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogExpr-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4E097A4015D3BA9300EBA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogExpr-Prefix.pch";
+				INFOPLIST_FILE = "LogExprTests/LogExprTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4E097A4115D3BA9300EBA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogExpr-Prefix.pch";
+				INFOPLIST_FILE = "LogExprTests/LogExprTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E097A1115D3BA8F00EBA70C /* Build configuration list for PBXProject "LogExpr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E097A3A15D3BA9300EBA70C /* Debug */,
+				4E097A3B15D3BA9300EBA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E097A3C15D3BA9300EBA70C /* Build configuration list for PBXNativeTarget "LogExpr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E097A3D15D3BA9300EBA70C /* Debug */,
+				4E097A3E15D3BA9300EBA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E097A3F15D3BA9300EBA70C /* Build configuration list for PBXNativeTarget "LogExprTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E097A4015D3BA9300EBA70C /* Debug */,
+				4E097A4115D3BA9300EBA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E097A0E15D3BA8F00EBA70C /* Project object */;
+}
