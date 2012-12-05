@@ -15,13 +15,13 @@
 
 #define LOG_EXPR_WITH(LOGGER, EXPR)                                     \
 do {                                                                    \
-	__typeof__(EXPR) TYPE = (EXPR);                                     \
-	const char *TYPE_CODE = @encode(__typeof__(EXPR));                  \
-	NSString *MSG = VTPG_DDToStringFromTypeAndValue(TYPE_CODE, &TYPE);  \
-	if (MSG)                                                            \
-		LOGGER(@"%s = %@", #EXPR, MSG);                                 \
-	else                                                                \
-		LOGGER(@"Unknown TYPE_CODE: %s for expression %s",              \
+    __typeof__(EXPR) TYPE = (EXPR);                                     \
+    const char *TYPE_CODE = @encode(__typeof__(EXPR));                  \
+    NSString *MSG = VTPG_DDToStringFromTypeAndValue(TYPE_CODE, &TYPE);  \
+    if (MSG)                                                            \
+        LOGGER(@"%s = %@", #EXPR, MSG);                                 \
+    else                                                                \
+        LOGGER(@"Unknown TYPE_CODE: %s for expression %s",              \
                 TYPE_CODE, #EXPR);                                      \
 } while(0)
 
